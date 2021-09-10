@@ -13,23 +13,30 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather app for English study</title>
   </head>
+
   <body>
     <div class="container">
       <div class="weather-app-box">
         <div class="heading">WHAT IS THE WEATHER TODAY?</div>
         <h1>Tokyo</h1>
+
         <ul>
           <li>Friday 05:00</li>
           <li>clear</li>
         </ul>
         <div class="row">
           <div class="col-md-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png "
-              alt="Clear"
-            />
-            12°C|°F
+            <div class="clear-fix weather-temperature">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png "
+                alt="Clear"
+              />
+
+              <strong>12</strong>
+              <span class="units">°C| <a href="#"> °F </a> </span>
+            </div>
           </div>
+
           <div class="col-md-6">
             <ul>
               <li>Humidity:73%</li>
@@ -37,21 +44,21 @@
             </ul>
           </div>
         </div>
-        <footer>
-          This project was coded by
-          <a
-            href="https://www.linkedin.com/in/polina-mayumi-770527215"
-            target="_blank"
-            >Polina Mayumi
-          </a>
-          and is
-          <a
-            href="https://github.com/MaPoMi/weather-app-for-English-study.git"
-            target="_blank"
-            >open-sourced on GitHub
-          </a>
-        </footer>
       </div>
+      <footer>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/polina-mayumi-770527215"
+          target="_blank"
+          >Polina Mayumi
+        </a>
+        and is
+        <a
+          href="https://github.com/MaPoMi/weather-app-for-English-study.git"
+          target="_blank"
+          >open-sourced on GitHub
+        </a>
+      </footer>
     </div>
     <script src="src/app.js"></script>
   </body>

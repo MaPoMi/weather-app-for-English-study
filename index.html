@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,8 +19,40 @@
     <div class="container">
       <div class="weather-app-box">
         <div class="heading">WHAT IS THE WEATHER TODAY?</div>
-        <h1 id="city">Tokyo</h1>
+        <div class="search">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="text"
+                  placeholder="Type a city..."
+                  autocomplete="off"
+                  autofocus="on"
+                  id="city-input"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                  id="city-search"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Current"
+                  id="location-serach"
+                  class="btn btn-primary w-100"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
 
+        <h1 id="city"></h1>
         <ul>
           <li>Last updated:<span id="date"></span></li>
           <li id="description"></li>
@@ -30,7 +62,7 @@
             <div class="clear-fix weather-temperature">
               <img src=" " alt="Clear" id="icon" />
 
-              <strong id="temperature">12</strong>
+              <strong id="temperature"> </strong>
               <span class="units">°C| <a href="#"> °F </a> </span>
             </div>
           </div>

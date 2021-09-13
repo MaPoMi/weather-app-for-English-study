@@ -55,3 +55,21 @@ function handleSubmit(event) {
 search("Tokyo");
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
+//Search for current city and temperature (Homework week5)
+
+function handlePosition(position) {
+  let latitude = position.coords.latitude;
+  let longitude = position.coords.longitude;
+  let units = "metric";
+  let apiKey = "94cb208f357f0cd1dfe11e7e26d01feb";
+  let apiEndpoint = "https://api.openweathermap.org/data/2.5/weather";
+  let apiUrl = `${apiEndpoint}?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
+  axios.get(apiUrl).then(displayTemperature);
+}
+function getCurrentPosition(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(handlePosition);
+}
+let currentButton = document.querySelector("#current");
+currentButton.addEventListener("click", getCurrentPosition);

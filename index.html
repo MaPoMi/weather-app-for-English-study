@@ -10,6 +10,10 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <script>
+      src = "https://kit.fontawesome.com/3808cdeaea.js";
+      crossorigin = "anonymous";
+    </script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather app for English study</title>
@@ -41,12 +45,13 @@
                 />
               </div>
               <div class="col-3">
-                <input
-                  type="submit"
-                  value="Current"
-                  id="location-serach"
+                <button
+                  type="button"
+                  id="current"
                   class="btn btn-primary w-100"
-                />
+                >
+                  Current
+                </button>
               </div>
             </div>
           </form>

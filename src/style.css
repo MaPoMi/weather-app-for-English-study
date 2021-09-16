@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 0;
+  margin: 10px 10px;
 }
 ul {
   margin: 0;
@@ -25,13 +25,14 @@ li:first-letter {
   margin: 20px auto;
 }
 .weather-app-box {
-  border: 2px solid green;
+  background-color: #65e892;
+  border: 2px solid #354abf;
   border-radius: 25px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   padding: 30px;
 }
 .heading {
-  color: green;
+  color: #354abf;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -60,13 +61,16 @@ a {
 .weather-temperature .active:hover {
   text-decoration-line: none;
 }
+img {
+  size: 200px;
+}
 .weather-forecast {
   margin-top: 30px;
   text-align: center;
 }
 .weather-forcast-date {
   font-size: 25px;
-  color: blue;
+  color: #354abf;
 }
 .weather-forcast-temperature {
   font-size: 18px;

@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 100;
   line-height: 28px;
   margin: 10px 10px;
@@ -25,7 +25,7 @@ li:first-letter {
 }
 .container {
   max-width: 600px;
-  margin: 5px auto;
+  margin: 2px auto;
 }
 .weather-app-box {
   background-color: #65e892;
@@ -35,10 +35,10 @@ li:first-letter {
   padding: 20px;
 }
 .search {
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
 }
 #city-input {
-  font-size: 30px;
+  font-size: 25px;
   padding: 15px 0;
   height: 60px;
 }

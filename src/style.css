@@ -79,7 +79,10 @@ a {
 .weather-temperature .active:hover {
   text-decoration-line: none;
 }
-
+img {
+  max-width: 200px;
+  height: auto;
+}
 .weather-forecast {
   margin-top: 30px;
   text-align: center;

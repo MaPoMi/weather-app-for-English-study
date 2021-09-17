@@ -38,6 +38,22 @@ li:first-letter {
 .search {
   margin: 50px 0 100px 0;
 }
+#city-input {
+  font-size: 30px;
+  padding: 15px 0;
+  height: 60px;
+}
+#city-search {
+  font-size: 30px;
+  padding: 15px 0;
+  height: 60px;
+}
+
+button {
+  font-size: 30px;
+  padding: 15px 0;
+  height: 60px;
+}
 
 a {
   text-decoration-line: none;

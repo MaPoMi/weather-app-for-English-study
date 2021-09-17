@@ -2,7 +2,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .heading {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
@@ -19,24 +19,23 @@ ul {
 li {
   list-style: none;
   font-size: 30px;
-  font-family: 100px;
 }
 li:first-letter {
   text-transform: capitalize;
 }
 .container {
-  max-width: 1000px;
-  margin: 20px auto;
+  max-width: 600px;
+  margin: 5px auto;
 }
 .weather-app-box {
   background-color: #65e892;
   border: 2px solid #354abf;
   border-radius: 25px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  padding: 30px;
+  padding: 20px;
 }
 .search {
-  margin: 50px 0 100px 0;
+  margin: 50px 0 50px 0;
 }
 #city-input {
   font-size: 30px;
@@ -44,12 +43,12 @@ li:first-letter {
   height: 60px;
 }
 #city-search {
-  font-size: 30px;
+  font-size: 20px;
   padding: 15px 0;
   height: 60px;
 }
 #location-search {
-  font-size: 30px;
+  font-size: 20px;
   padding: 15px 0;
   height: 60px;
 }
@@ -79,11 +78,11 @@ a {
   text-decoration-line: none;
 }
 img {
-  max-width: 800px;
+  max-width: 500px;
   height: auto;
 }
 .weather-forecast {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 .weather-forcast-date {
@@ -91,7 +90,7 @@ img {
   color: #354abf;
 }
 .weather-forcast-temperature {
-  font-size: 25px;
+  font-size: 20px;
 }
 .weather-forcast-temperature-min {
   opacity: 0.5;
